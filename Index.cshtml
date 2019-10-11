@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<section class="text-center alert-primary">
+    <h1 class="display-2">Ben's Candies!</h1>
+</section>
+<section style="padding:10px;" class="container-fluid text-center">
+    <span><a class="btn btn-light" asp-area="" asp-page="/Candies/Index">Candies</a></span>
+    <span><a class="btn btn-light" asp-area="" asp-page="/Manufacturers/Index">Manufacturers</a></span>
+    <span><a class="btn btn-light" asp-area="" asp-page="/Stores/Index">Stores</a></span>
+</section>
+<section>
+    <img style="height:20rem; width:100%;" src="~/candies.jpg" alt="Alternate Text" />
+</section>
